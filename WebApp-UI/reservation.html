@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- jQuery library (served from Google) -->
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Holmes</title>
+</head>
+
+
+<body>
+
+
+<div class="headerArea">
+
+    <h1>Holmes </h1>
+
+    <h3>221B Baker Street| London</h3>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="owner.html">Owner</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="developers.html">Developers</a></li>
+        </ul>
+    </nav>
+
+
+</div>
+
+<div class="main">
+
+    <div class="formArea">
+
+        <div class="mainForm">
+            <form>
+
+                <table>
+                    <tr>
+                        <td>
+                            <label for="resDate">Date</label>
+                        </td>
+                        <td>
+                            <input type="date" id="resDate" placeholder="Date" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="resTime">Time</label></td>
+                        <td>
+                            <input type="time" id="resTime" value="11:30"/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="selectOption">Table for</label>
+                        </td>
+                        <td>
+                            <select name="Select_1" tabindex="1" id="selectOption">
+                                <option value="1">1 person</option>
+                                <option value="2">2 people</option>
+                                <option value="3">3 people</option>
+                                <option value="4">4 people</option>
+                                <option value="5">5 people</option>
+                                <option value="6">6 people</option>
+                                <option value="7">7 people</option>
+                                <option value="8">8 people</option>
+                                <option value="9">9 people</option>
+                                <option value="10">10 people</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="firstName">Name</label>
+                        </td>
+                        <td>
+
+                            <input type="text" id="firstName" placeholder="Name" required/>
+                            <!-- <label for="selectOption">Table for</label>-->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="phone">Phone</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="phone" placeholder="Phone" required/>
+                        </td>
+                        <!--        <label for="selectOption">Table for</label>
+                                <input type="email" id="email" placeholder="Email" required/>-->
+
+                    <tr>
+                        <td>
+                            <input type="submit" Value="Reserve Table" id="submit" class="submitbutton"/>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+            <form>
+                <br>
+                <small>Want to reschedule a reservation? Enter Confirmation Id and Reschedule</small>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="confirmationID">Confirmation ID</label></td>
+                        <td>
+                            <input type="text" id="confirmationID" placeholder="Confirmation ID " required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" Value="Reschedule" id="Reschedule" class="submitbutton"/>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+
+
+        </div>
+        <!--end of main form-->
+    </div>
+    <!-- end of formArea -->
+
+
+</div>
+<div class="footerArea">
+    <footer>
+        &copyShweta Thakare
+    </footer>
+</div>
+<script src="js/restScript.js"></script>
+
+</body>
+
+</html>
+
+
+
